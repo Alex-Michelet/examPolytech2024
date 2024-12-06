@@ -1,0 +1,39 @@
+Qu'est ce que Docker ? A quoi cela sert-il ?
+
+Docker est un gestionnaire de conteneurs. Il permet de faire de la conteneurisation, ce qui est plus léger que de la virtualisation.
+Les conteneurs reposent sur le noyau linux et partagent tous le même noyaux, ce qui les rend moins isolés, et donc moins sécurisés que 
+des machines virtuelles. 
+La virtualisation n'est donc pas remplacée par la conteneurisation, son utilisation va dépendre des cas d'usage.
+Les conteneur permettent d'exécuter un processus. Par exemple, on peut conteneuriser une application web. Cela indique que l'on va construire
+une image dans la quelle on va donner le filesystem d'un serveur web, puis nous allons faire en sorte de 
+
+
+Qu'est ce que la CI et la CD ? Pourquoi est-ce utile ?
+
+L'intégration continue permet de s'assurer que le travail des développeurs est complet et est terminé. Dans l'intégration continue,
+on va toruver les tests unitaires, les tests d'intégration et/ou les tests de charges. L'intégration continue sert donc à s'assurer 
+qu'un projet est complet et, en théorie, sans bugs, car ils auront été détéctés lors de la CI. 
+
+Le déploiement continue et un déploiement automatique du code vers les différents environnement de travail. Typiquement, on va 
+déployer sur l'environnement de développement, puis si tout se passe bien, le déploiement pourra se poursuivre sur les diffférents 
+environnement de l'entreprise avant d'atteindre la production. 
+La Continuous delivery est presque la même chose que la Continuous deployment, mais il faut un intermédiaire humain. Par exemple, 
+au sein d'une banque, avant de mettre en production, on va demander au chef si il est prêt à mettre l'application en prod. 
+
+Qu'avez vous pensez du cours ?
+
+Le cours était très dynamique et bien organisé. 
+J'ai pu comprendre très rapidement les principes de Docker, son utilité etj'ai également pu en apprendre plus sur la CI/CD et les avantages qu'elles propose. 
+Même si nous en faisons un peu dans mon entreprise je suis sur la partie développement et non DevOps du projet, et j'entendais parler de CI/CD sans vraiment comprendre ce que c'était. 
+
+
+
+Surprenez moi
+
+Connaissez vous ce site internet ? www.guthib.com
+	
+
+Je concluerai en disant que selon une étude récente, la plupart des hommes chauves n'ont pas beaucoup de cheveux. 
+
+Pusher votre code sur github avec votre fichier de réponse aux questions et envoyer moi les urls de vos repos github.
+
