@@ -45,5 +45,5 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: rg.fr-par.scw.cloud/polytech-exam-2024/java:alex
+          tags: rg.fr-par.scw.cloud/polytech-exam-2024/michelet/java:alex
           context: java

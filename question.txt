@@ -4,8 +4,9 @@ Docker est un gestionnaire de conteneurs. Il permet de faire de la conteneurisat
 Les conteneurs reposent sur le noyau linux et partagent tous le même noyaux, ce qui les rend moins isolés, et donc moins sécurisés que 
 des machines virtuelles. 
 La virtualisation n'est donc pas remplacée par la conteneurisation, son utilisation va dépendre des cas d'usage.
-Les conteneur permettent d'exécuter un processus. Par exemple, on peut conteneuriser une application web. Cela indique que l'on va construire
-une image dans la quelle on va donner le filesystem d'un serveur web, puis nous allons faire en sorte de 
+Les conteneur permettent d'exécuter un processus. Par exemple quand on veut conteneuriser une application web, on va construire
+une image dans la quelle on va donner le filesystem d'un serveur web, puis nous allons faire en sorte de copier les fichiers nécessaires
+avant de lancer le dit serveur web. 
 
 
 Qu'est ce que la CI et la CD ? Pourquoi est-ce utile ?
@@ -31,9 +32,9 @@ Même si nous en faisons un peu dans mon entreprise je suis sur la partie dével
 Surprenez moi
 
 Connaissez vous ce site internet ? www.guthib.com
-	
+Sinon, il y a également ce site internet, plus connus : https://theuselessweb.com
 
-Je concluerai en disant que selon une étude récente, la plupart des hommes chauves n'ont pas beaucoup de cheveux. 
+Pour conclure, je dirai qu'une étude récente a montré que les hommes chauves n'ont pas beaucoup de cheveux. 
 
 Pusher votre code sur github avec votre fichier de réponse aux questions et envoyer moi les urls de vos repos github.
 
